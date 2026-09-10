@@ -7,7 +7,7 @@ class Appointment:
         self.date = date  
         self.time = time  
         self.city = city  
-        self.state = state  
+        self.state = location
 
     def schedule(self):  
         return (f"Appointment scheduled for {self.patient_name} with Dr. {self.doctor_name} "  
